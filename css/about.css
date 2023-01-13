@@ -1,0 +1,123 @@
+#about .about-img {
+  background-image: url(../img/about.jpg);
+  position: relative;
+}
+#about h2 {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 4.5rem;
+  filter: drop-shadow(1px 1px 10px #c0c0c0);
+  position: absolute;
+  top: 30%;
+}
+@media (max-width: 767px) {
+  #about h2 {
+    font-size: 2rem;
+    top: 26%;
+  }
+}
+#about h3 {
+  font-size: 2.5rem;
+  display: inline-block;
+  border-bottom: solid 6px #e03131;
+  margin-bottom: 70px;
+}
+@media (max-width: 767px) {
+  #about h3 {
+    font-size: 1.25rem;
+    margin-bottom: 25px;
+  }
+}
+#about ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+  #about ul {
+    flex-direction: column;
+  }
+}
+#about li {
+  width: 46%;
+  line-height: 2;
+  text-align: left;
+  padding: 2%;
+}
+@media (max-width: 767px) {
+  #about li {
+    width: 100%;
+  }
+}
+#about .btn {
+  width: 160px;
+  height: 50px;
+  line-height: 3.5;
+  display: inline-block;
+  color: #000;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+#about .btn span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#about .btn span::before {
+  width: 2px;
+  height: 50%;
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: #e03131;
+  transition: all 0.3s ease;
+}
+#about .btn span::after {
+  width: 20%;
+  height: 2px;
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: #e03131;
+  transition: all 0.3s ease;
+}
+#about .btn::before {
+  width: 2px;
+  height: 50%;
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: #e03131;
+  transition: all 0.3s ease;
+}
+#about .btn::after {
+  width: 20%;
+  height: 2px;
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: #e03131;
+  transition: all 0.3s ease;
+}
+
+.fixed-bg {
+  height: 300px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 767px) {
+  .fixed-bg {
+    height: 94px;
+    background-attachment: scroll;
+  }
+}/*# sourceMappingURL=about.css.map */

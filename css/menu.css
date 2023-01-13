@@ -1,0 +1,99 @@
+#menu {
+  margin-top: 20px;
+}
+@media (max-width: 767px) {
+  #menu {
+    margin-top: 10px;
+  }
+}
+#menu .menu-img {
+  background-image: url(../img/menu.jpg);
+  position: relative;
+}
+#menu .menu-img h2 {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 4.5rem;
+  filter: drop-shadow(1px 1px 10px #c0c0c0);
+  position: absolute;
+  top: 30%;
+}
+@media (max-width: 767px) {
+  #menu .menu-img h2 {
+    font-size: 2rem;
+    top: 26%;
+  }
+}
+#menu .menu-content {
+  display: flex;
+}
+@media (max-width: 767px) {
+  #menu .menu-content {
+    flex-direction: column;
+  }
+}
+#menu .menu-item:first-child {
+  border-right: solid 1px #000;
+}
+@media (max-width: 767px) {
+  #menu .menu-item:first-child {
+    border-right: none;
+  }
+}
+
+.menu-item {
+  width: 50%;
+  padding: 0 45px;
+}
+@media (max-width: 767px) {
+  .menu-item {
+    width: 100%;
+    padding: 0;
+  }
+}
+.menu-item h3 {
+  font-size: 2.5rem;
+  display: inline-block;
+  border-bottom: solid 6px #e03131;
+  margin-bottom: 70px;
+}
+@media (max-width: 767px) {
+  .menu-item h3 {
+    font-size: 1.25rem;
+    margin-bottom: 25px;
+  }
+}
+.menu-item dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 767px) {
+  .menu-item dl {
+    margin-bottom: 10px;
+  }
+}
+.menu-item dt {
+  width: 87%;
+  text-align: left;
+  border-bottom: dotted 1px #000;
+  margin-bottom: 25px;
+}
+.menu-item dd {
+  width: 13%;
+  text-align: right;
+  padding-top: 8px;
+  margin-left: 0;
+}
+
+.wrapper {
+  max-width: 1000px;
+  padding: 90px 16px 150px 16px;
+  margin: 0 auto;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .wrapper {
+    padding: 30px 16px 60px 16px;
+  }
+}/*# sourceMappingURL=menu.css.map */

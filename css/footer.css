@@ -1,0 +1,10 @@
+footer {
+  font-size: 0.5rem;
+  padding: 10px 0;
+  text-align: center;
+}
+
+*, :after, :before {
+  background-repeat: no-repeat;
+  box-sizing: inherit;
+}/*# sourceMappingURL=footer.css.map */
